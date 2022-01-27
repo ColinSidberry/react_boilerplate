@@ -31,6 +31,7 @@ export function changeUsername(username) {
   };
 }
 
+// Step 2: update actions
 export function changeInput(input) {
   return {
     type: CHANGE_INPUT,

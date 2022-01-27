@@ -11,4 +11,5 @@
 
 export const CHANGE_USERNAME = 'boilerplate/Home/CHANGE_USERNAME';
 
+// Step 1: add constants
 export const CHANGE_INPUT = 'boilerplate/Home/CHANGE_INPUT';

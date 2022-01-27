@@ -13,4 +13,9 @@ const makeSelectUsername = () =>
     homeState => homeState.username,
   );
 
-export { selectHome, makeSelectUsername };
+const makeSelectInput = () =>
+  createSelector(
+    selectHome,
+    homeState => homeState.input,
+  );
+export { selectHome, makeSelectUsername, makeSelectInput };
